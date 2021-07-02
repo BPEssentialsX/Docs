@@ -1,18 +1,18 @@
 
 body
 {
-
-
+    
+    <img src="./jpeg.jpg"/>
     background-color: lightblue;
 }
 
 #container
 {
 
-width: 1400px;
-margin-left: auto;
-margin-right: auto;
-background-color: green;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
 
 }
 #ContentIndex
