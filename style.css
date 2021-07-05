@@ -2,6 +2,7 @@ body
 {
     background-image: url("./images/jpeg.jpg");
     background-color: lightblue;
+    zoom : 90%;
 }
 #menu
 {
