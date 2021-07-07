@@ -1,0 +1,83 @@
+body{
+
+margin: 0;
+padding: 0;
+background: url(./pliki/Overview.jpg) no-repeat;
+background-size: cover;
+
+
+
+}
+#EssentialsX
+{
+
+
+
+    position: absolute;
+    top: 15%;
+    left: 36.5%;
+
+}
+#EssentialsX h1 
+{
+
+    font-size: 68px;
+    padding: 0 14px;
+
+    font-family: 'Encode Sans SC', sans-serif;
+
+
+}
+.menu  {
+
+
+
+    position: absolute;
+    top: 50%;
+    left: 26%;
+}
+*{
+
+    background-color: none;
+}
+
+.option input{
+
+    font-family: 'Encode Sans SC', sans-serif;
+
+}
+
+
+
+.option{
+
+height: 60px;
+width: 190px;
+border-radius: 7px;
+background: rgb(65, 105, 225);
+font-size: 20px;
+border: rgb(65, 105, 225);
+font-family: 'Encode Sans SC', sans-serif;
+
+}
+.option:hover{
+
+    cursor: pointer;
+    height: 60px;
+    width: 190px;
+    border-radius: 7px;
+    background: rgba(65, 105, 225, 0.819);
+
+    border: 5px solid rgba(65, 105, 225, 1);
+    font-family: 'Encode Sans SC', sans-serif;
+    
+    }
+
+.option a{
+
+font-size: 22px;
+text-decoration: none;
+color: white;
+
+
+}
