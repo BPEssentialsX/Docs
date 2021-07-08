@@ -26,6 +26,7 @@ align-items: center;
 }
 .EssentialsX h1 
 {
+    color: white;
     opacity: 0.75;
     font-size: 88px;
     padding: 0 14px;
@@ -61,7 +62,7 @@ align-items: center;
 
 
 .option{
-
+   color: white;
     margin: 12px;
 height: 60px;
 width: 190px;
@@ -131,7 +132,7 @@ color: white;
             font-size: 38px;
             padding: 0 14px;
             text-align: center;
-
+               color: white;
             font-family: 'Encode Sans SC', sans-serif;
         
         
@@ -163,7 +164,7 @@ color: white;
         
         .option{
        
-        
+           color: white;
             align-items: center;
             margin: 20.5px;
         height: 50px;
