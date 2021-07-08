@@ -2,8 +2,10 @@ body{
 
 margin: 0;
 padding: 0;
-background: url(Overview.jpg) no-repeat;
-background-size: cover;
+background: url(Tlo.jpg) no-repeat;
+background-size:  cover ;
+
+margin-bottom: 0;
 
 
 
@@ -27,18 +29,17 @@ align-items: center;
 }
 .EssentialsX h1 
 {
-    opacity: 0.75;
+
     font-size: 88px;
     padding: 0 14px;
     text-align: center;
 
     font-family: 'Encode Sans SC', sans-serif;
 
-    color: rgb(197, 182, 182);
+    color: #222;
+
+
 }
-
-
- 
 
 .menu  {
 
@@ -47,6 +48,7 @@ align-items: center;
 
 }
 *{
+
     align-items: center;
     text-align: center;
     background-color: none;
@@ -63,8 +65,8 @@ align-items: center;
 
 
 .option{
-    color: rgb(197, 182, 182);
-    margin: 12px;
+    color: darkslategray;
+    margin: 19px;
 height: 60px;
 width: 190px;
 border-radius: 7px;
@@ -99,15 +101,15 @@ color: white;
 
 
 
-@media  screen and (max-width: 420px) {
+@media  screen and (max-width: 425px) {
 
     body{
 
         margin: 0;
         padding: 0;
-        background: url(./Overview.jpg) no-repeat;
+        background: url(Overview.jpg) no-repeat;
        
-        
+        margin-bottom: 0;
         
         }
         
@@ -132,7 +134,7 @@ color: white;
             font-size: 38px;
             padding: 0 14px;
             text-align: center;
-            color: rgb(197, 182, 182);
+            color: darkslategray;
             
 
             font-family: 'Encode Sans SC', sans-serif;
@@ -151,7 +153,7 @@ color: white;
 
         }
         *{
-        
+      
             align-items: center;
             text-align: center;
             background-color: none;
@@ -167,7 +169,7 @@ color: white;
         
         .option{
        
-            color: rgb(197, 182, 182);
+            color: darkslategray;
             align-items: center;
             margin: 20.5px;
         height: 50px;
@@ -206,4 +208,109 @@ color: white;
         }
         
     
+}
+
+@media  screen and (min-width: 1920px) {
+
+    body{
+
+        margin: 0;
+        padding: 0;
+        background: url(Tlo.jpg) no-repeat;
+        background-size:  cover;
+        
+        margin-bottom: 0;
+        
+        
+        
+        
+        }
+        
+        
+        
+         
+        
+        
+        
+        .EssentialsX
+        {
+        
+        
+        
+        
+        align-items: center;
+        
+        }
+        .EssentialsX h1 
+        {
+        
+            font-size: 88px;
+            padding: 0 14px;
+            text-align: center;
+        
+            font-family: 'Encode Sans SC', sans-serif;
+        
+            color: #222;
+        
+        
+        }
+        
+        .menu  {
+        
+        
+            align-items: center;
+        
+        }
+        *{
+        
+            align-items: center;
+            text-align: center;
+            background-color: none;
+        }
+        
+        .option input{
+        
+            font-family: 'Encode Sans SC', sans-serif;
+        
+        
+        
+        }
+        
+        
+        
+        .option{
+            color: darkslategray;
+            margin: 19px;
+        height: 60px;
+        width: 190px;
+        border-radius: 7px;
+        background: rgb(65, 105, 225);
+        font-size: 20px;
+        border: rgb(65, 105, 225);
+        font-family: 'Encode Sans SC', sans-serif;
+        
+        }
+        .option:hover{
+        
+            box-shadow: 0 0 15px 5px rgba(0,0,0, 0.7);
+            cursor: pointer;
+            height: 60px;
+            width: 190px;
+            border-radius: 7px;
+            background: rgba(65, 105, 225, 0.819);
+        
+            border: 5px solid rgba(65, 105, 225, 1);
+            font-family: 'Encode Sans SC', sans-serif;
+        
+            }
+        
+        .option a{
+        
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+        
+        
+        }
+        
 }
