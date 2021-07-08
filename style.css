@@ -3,9 +3,13 @@ body{
 margin: 100px;
 padding: 100px;
 
-background-image: url(./Tlo.jpg);
-background-size:  cover;
+background-image: url(./Tlo.jpg) ;
+
 background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 
 
