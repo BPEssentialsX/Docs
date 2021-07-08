@@ -3,9 +3,8 @@ body{
 margin: 0;
 padding: 0;
 background: url(Tlo.jpg) no-repeat;
-background-size:  cover ;
+background-size:100%;
 
-margin-bottom: 0;
 
 
 
@@ -217,9 +216,9 @@ color: white;
         margin: 0;
         padding: 0;
         background: url(Tlo.jpg) no-repeat;
-        background-size:  cover;
+ background-size:100%;
         
-        margin-bottom: 0;
+    
         
         
         
