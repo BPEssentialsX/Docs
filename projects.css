@@ -1,0 +1,202 @@
+body{
+
+margin: 0;
+padding: 0;
+background: url(./Overview.jpg);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+display: block;
+
+
+
+
+}
+
+
+.Photos {
+    align-items: center;
+
+}
+
+.plugin {
+
+    font-family: 'Encode Sans SC', sans-serif;
+
+
+    align-items: center;
+    text-align: center;
+}
+.plugin h1{
+
+    align-items: center;
+    text-align: center;
+padding: 52px;
+color: #ffff;
+    font-size: 44px;
+    text-decoration: none;
+
+}
+.plugin a{
+
+    align-items: center;
+    text-align: center;
+padding: 52px;
+    color: #ffffff;
+    font-size: 44px;
+    text-decoration: none;
+
+}
+
+
+.top-content {
+        
+        
+        
+    font-family: 'Encode Sans SC', sans-serif;
+
+    align-items: center;
+
+
+  background-color : #312f2f;
+
+height: 100px;
+
+transform: translate(0px, -45px);
+
+
+}
+
+
+
+
+    
+
+        
+.top-content h1 
+{
+
+    font-size: 37px;
+    
+    text-align: center;
+    align-items: center ;
+
+    font-family: 'Encode Sans SC', sans-serif;
+    transform: translate(0px, 33px);
+    color: #ffffff;
+}
+
+
+@media  screen and (max-width: 425px) {
+    
+    
+    body{
+
+
+        margin: 0;
+        padding: 0;
+        background: url(Overview.jpg) no-repeat;
+       
+        margin-bottom: 0;
+
+        
+        
+        
+        
+        
+        }
+        
+        
+        .Photos {
+            align-items: center;
+        
+        }
+        .plugin a{
+
+            align-items: center;
+            text-align: center;
+        padding: 3px;
+            color: #ffffff;
+            font-size: 34px;
+            text-decoration: none;
+        display:inline-block;
+        }
+        .plugin {
+        
+            font-family: 'Encode Sans SC', sans-serif;
+        
+        
+            align-items: center;
+            text-align: center;
+        }
+        .plugin h1{
+        
+            align-items: center;
+            text-align: center;
+        padding: 28px;
+        color: #ffff;
+            font-size: 20px;
+            text-decoration: none;
+    
+            
+        
+        }
+
+
+        
+        
+        .top-content {
+        
+        
+        
+            font-family: 'Encode Sans SC', sans-serif;
+        
+            align-items: center;
+        
+        
+          background-color : #312f2f;
+        
+        height: 100px;
+        
+        transform: translate(0px, -30px);
+        
+        
+        }
+        
+        
+        
+        
+            
+        
+        .top-content h1 
+        {
+        
+            font-size: 37px;
+            
+            text-align: center;
+            align-items: center ;
+        
+            font-family: 'Encode Sans SC', sans-serif;
+            transform: translate(0px, 17px);
+            color: #ffffff;
+        }
+        
+    
+}
+
+@media  screen and (min-width: 1920px) {
+
+    
+        
+}
+
+@media  screen and (min-width: 1515px) {
+
+
+}
+@media  screen and (min-width: 2021px) {
+
+    
+}
